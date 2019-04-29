@@ -1,0 +1,181 @@
+mm
+
+/*This is my final project (my portfolio site) stylesheet.*/
+:root {
+    light: white;
+    font-family: helvetica;
+
+}
+
+a:root {}
+
+#mainheader {
+    color: black;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Helvetica;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Helvetica;
+    color: grey;
+}
+
+h5 {
+    color: #57BB93;
+    font-family: helvetica;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h6 {
+    color: black;
+    font-size: 17px;
+    font-family: helvetica;
+    text-decoration: underline;
+}
+
+
+/*This is weird/fun thing I may use but also kinda ugly.
+p::first-letter {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+*/
+
+li {
+    font-family: Helvetica;
+
+}
+
+a:link {
+    color: #571034;
+}
+
+a:hover {
+    color: #57BB93;
+}
+
+a:active {
+    color: #E32986;
+}
+
+a:visited {
+    color: #CCCCCC;
+}
+
+
+/*Columns and Bootstrap styling*/
+
+body {
+    padding-top: 40px;
+}
+
+.heading {
+    background: white;
+}
+
+.heading2 {
+    background: #a4a4a4;
+
+    /*  NAVIGATION PILLS STYLING  */
+}
+
+
+
+.nav-pills .nav-link {
+    color: #571034;
+    float: right;
+    padding: 10px 21px;
+}
+
+.nav-pills .nav-link:hover {
+    color: #cccccc;
+}
+
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #E32986;
+    background-color: white;
+}
+
+.about-me {
+
+    font-size: 16px;
+    font-family: helvetica;
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.portfolio-writeup {
+    font-size: 12px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+    color: #E32986;
+}
+
+.blog-intro {
+    font-size: 18px;
+    color: grey;
+}
+
+.blog-post {
+    font-size: 12px;
+    font-family: helvetica;
+    text-align: justify;
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px 2px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-color: #571034;
+}
+
+.resume-row {
+    text-align: center;
+}
+
+.text-center-resume-header {
+    text-align: center;
+    font-size: 26px;
+    font-family: helvetica;
+}
+
+.text-right-resume-heading {
+    text-align: right;
+    font-style: oblique;
+    font-size: 18px;
+    font-family: helvetica;
+    color: #E32986;
+}
+
+.text-left-resume-copy {
+    text-align: left;
+    font-size: 18px;
+    font-family: helvetica;
+    color: black;
+}
